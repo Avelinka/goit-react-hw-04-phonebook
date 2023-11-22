@@ -52,6 +52,7 @@ export const ContactForm = ({ onAddContact }) => {
             Name
           </LabelWrap>
           <Field
+            autoComplete="off"
             type="text"
             id="name"
             name="name"
@@ -66,6 +67,7 @@ export const ContactForm = ({ onAddContact }) => {
             Number
           </LabelWrap>
           <Field
+            autoComplete="off"
             type="tel"
             id="number"
             name="number"
